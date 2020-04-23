@@ -1,30 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>
-        문제장 만들기
-    </title>
+    <meta charset="UTF-8">
+    <title>home</title>
 </head>
 <body>
-    <form method="POST" action="/question/make">
-        <h1> 나만의 문제장을 만들어보자! </h1>
-        <h3> 빈칸으로 만들고 싶은 부분을 (괄호)로 감춰주세요! </br></h3>
-        <h5> ex) 차세대 네트워크는 (고도화)된 통신 서비스를 제공하는 (미래형 통신 인프라)이다 </h5>
-         사용자 이름 : <input type ="text" name ="q_user_id">
-         과목 : <input type ="text" name ="subject">
-         주제 : <input type ="text" name ="topic">
-         내용 : <input type ="text" name ="content">
-          <input type="submit" value="전송">
-    </form>
-    <div>
-        <p>
+<button type="button" onclick="location.href='/question'" >문제 만들기</button>
+<button type="button" onclick="location.href='/question/view'" >문제 보기</button>
+<button type="button" onclick="location.href='/question/solve'" >문제 풀기</button>
+<button type="button" onclick="location.href='/incorrect_note/view'" >오답노트 보기</button>
 
 
-        </p>
-    </div>
+
 </body>
 </html>
-
-
-
-
