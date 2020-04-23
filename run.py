@@ -5,8 +5,8 @@ app = Flask(__name__)
 # DB 연결
 db= pymysql.connect(host='localhost',
                      port=3306,
-                     user='root',
-                     passwd='',
+                     user='test',
+                     passwd='passwd',
                      db='new',
                      charset='utf8')
 
